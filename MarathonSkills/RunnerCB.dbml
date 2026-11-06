@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Wow_Meow" Class="RunnerCBDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.;Initial Catalog=Wow_Meow;Integrated Security=True" SettingsObjectName="MarathonSkills.Properties.Settings" SettingsPropertyName="Wow_MeowConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.RunnerView2" Member="RunnerView2">
+    <Type Name="RunnerView2">
+      <Column Name="RegistrationId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FirstName" Type="System.String" DbType="NVarChar(80)" CanBeNull="true" />
+      <Column Name="LastName" Type="System.String" DbType="NVarChar(80)" CanBeNull="true" />
+      <Column Name="BibNumber" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="CountryCode" Type="System.String" DbType="NChar(3) NOT NULL" CanBeNull="false" />
+      <Column Name="CharityName" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Sponsorship" Member="Sponsorship">
+    <Type Name="Sponsorship">
+      <Column Name="SponsorshipId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="SponsorName" Type="System.String" DbType="NVarChar(150) NOT NULL" CanBeNull="false" />
+      <Column Name="RegistrationId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Amount" Type="System.Decimal" DbType="Decimal(10,2) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

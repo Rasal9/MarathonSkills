@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Runners">
+  <DataContextMoniker Name="/RunnersDataContext" />
+  <nestedChildShapes>
+    <classShape Id="{43fcf773-0000-0000-0000-000000000001}" absoluteBounds="0.50, 0.50, 2, 1.7200">
+      <DataClassMoniker Name="/RunnersDataContext/User" />
+      <nestedChildShapes>
+        <elementListCompartment Id="{43fcf773-0000-0000-0001-000000000001}" absoluteBounds="0.51, 1.10, 1.98, 1.1200" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="{43fcf773-0000-0000-0000-000000000002}" absoluteBounds="3.10, 0.50, 2, 1.1500">
+      <DataClassMoniker Name="/RunnersDataContext/Role" />
+      <nestedChildShapes>
+        <elementListCompartment Id="{43fcf773-0000-0000-0001-000000000002}" absoluteBounds="3.11, 1.10, 1.98, 0.5500" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="{43fcf773-0000-0000-0000-000000000003}" absoluteBounds="5.70, 0.50, 2, 1.7200">
+      <DataClassMoniker Name="/RunnersDataContext/Runner" />
+      <nestedChildShapes>
+        <elementListCompartment Id="{43fcf773-0000-0000-0001-000000000003}" absoluteBounds="5.71, 1.10, 1.98, 1.1200" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="{43fcf773-0000-0000-0000-000000000004}" absoluteBounds="0.50, 3.10, 2, 1.3400">
+      <DataClassMoniker Name="/RunnersDataContext/Country" />
+      <nestedChildShapes>
+        <elementListCompartment Id="{43fcf773-0000-0000-0001-000000000004}" absoluteBounds="0.51, 3.70, 1.98, 0.7400" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="{43fcf773-0000-0000-0000-000000000005}" absoluteBounds="3.10, 3.10, 2, 2.2900">
+      <DataClassMoniker Name="/RunnersDataContext/Registration" />
+      <nestedChildShapes>
+        <elementListCompartment Id="{43fcf773-0000-0000-0001-000000000005}" absoluteBounds="3.11, 3.70, 1.98, 1.6900" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="{43fcf773-0000-0000-0000-000000000006}" absoluteBounds="5.70, 3.10, 2, 1.5300">
+      <DataClassMoniker Name="/RunnersDataContext/Charity" />
+      <nestedChildShapes>
+        <elementListCompartment Id="{43fcf773-0000-0000-0001-000000000006}" absoluteBounds="5.71, 3.70, 1.98, 0.9300" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="{43fcf773-0000-0000-0000-000000000007}" absoluteBounds="0.50, 5.70, 2, 1.7200">
+      <DataClassMoniker Name="/RunnersDataContext/RegistrationEvent" />
+      <nestedChildShapes>
+        <elementListCompartment Id="{43fcf773-0000-0000-0001-000000000007}" absoluteBounds="0.51, 6.30, 1.98, 1.1200" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="{43fcf773-0000-0000-0000-000000000008}" absoluteBounds="3.10, 5.70, 2, 1.1500">
+      <DataClassMoniker Name="/RunnersDataContext/RegistrationStatus" />
+      <nestedChildShapes>
+        <elementListCompartment Id="{43fcf773-0000-0000-0001-000000000008}" absoluteBounds="3.11, 6.30, 1.98, 0.5500" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="{43fcf773-0000-0000-0000-000000000009}" absoluteBounds="5.70, 5.70, 2, 1.3400">
+      <DataClassMoniker Name="/RunnersDataContext/RaceKitOption" />
+      <nestedChildShapes>
+        <elementListCompartment Id="{43fcf773-0000-0000-0001-000000000009}" absoluteBounds="5.71, 6.30, 1.98, 0.7400" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

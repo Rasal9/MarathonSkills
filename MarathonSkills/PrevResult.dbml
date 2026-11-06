@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Wow_Meow" Class="PrevResultDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.;Initial Catalog=Wow_Meow;Integrated Security=True" SettingsObjectName="MarathonSkills.Properties.Settings" SettingsPropertyName="Wow_MeowConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.[Предыдущие результаты]" Member="Предыдущие_результаты">
+    <Type Name="Предыдущие_результаты">
+      <Column Name="RaceTime" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FirstName" Type="System.String" DbType="NVarChar(80)" CanBeNull="true" />
+      <Column Name="LastName" Type="System.String" DbType="NVarChar(80)" CanBeNull="true" />
+      <Column Name="CountryName" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="RunnerId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Email" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="EventId" Type="System.String" DbType="NChar(6) NOT NULL" CanBeNull="false" />
+      <Column Name="EventTypeId" Type="System.String" DbType="NChar(2) NOT NULL" CanBeNull="false" />
+      <Column Name="Gender" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="MarathonId" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="DateOfBirth" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
